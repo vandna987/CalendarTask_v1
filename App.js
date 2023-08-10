@@ -8,6 +8,7 @@ import MyDatePicker from './src/MyDatePicker';
 
 import {Calendar, LocaleConfig} from 'react-native-calendars';
 import CustomCalendar from './src/CustomCalendar';
+import CustomCalendar2 from './src/CustomCalendar2';
 
 // DateTimePickerAndroid.open(params: AndroidNativeProps)
 // DateTimePickerAndroid.dismiss(mode: AndroidNativeProps['mode'])
@@ -53,7 +54,8 @@ const App = () => {
   maximumDate={maxDate}
   minimumDate={minDate}
 /> */}
-<CustomCalendar/>
+{/* <CustomCalendar/> */}
+<CustomCalendar2/>
    </View>
   )
 }
